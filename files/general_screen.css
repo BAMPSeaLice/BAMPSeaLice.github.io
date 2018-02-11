@@ -1,0 +1,338 @@
+/*
+main layout
+----------------------------------------------------- */
+
+body
+{
+	margin: 0;
+	padding: 0;
+	color: black;
+	background-color: white;
+	font: 13px/21px Helvetica, serif;
+	text-align: left;
+}
+
+div#wholepage
+{
+	display: block;
+	width: 915px;
+	margin: 10px auto 0 auto;
+	min-height: 500px;
+}
+
+div#header
+{
+	display: block;
+	width: 915px;
+	height: 100px;
+}
+
+h1
+{
+	margin: 0;
+}
+
+h1 a
+{
+	display: block;
+	width: 400px;
+	height: 100px;
+	border: 0 !important;
+	background-image: url(../images/BAMP_logo_long.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+div#quicklinks
+{
+	display: none;
+	width: 120px;
+	margin: 0 20px 0 0;
+	padding: 0;
+	float: right;
+	text-align: left;
+	font-size: 11px;
+}
+
+div#banner img
+{
+	display: block;
+	clear: both;
+	height: 150px;
+	width: 915px;
+	border-bottom: 1px solid white;
+}
+
+div#welcome
+{
+	font-size: 14px;
+	width: 345px;
+}
+
+div#welcome_logo
+{
+	display: block;
+	width: 325px;
+	float: right;
+	border:none;
+	outline:none;
+}
+
+h1
+{
+	display: block;
+	float: left;
+}
+
+div#content
+{
+	display: block;
+	float: left;
+	width: 458px;
+	margin: 30px 0 0 120px;
+}
+
+div.datanavigationform
+{
+	display: block;
+	float: left;
+	width: 330px;
+	margin: 0 18px 30px 0;
+}
+
+div.datanavigationform h3
+{
+	margin: 0 0 20px 0;
+}
+
+div.datanavigationform input
+{
+	margin: 10px 0 0 0;
+}
+
+
+div#sidebar
+{
+	display: block;
+	float: right;
+	width: 190px;
+	margin: 0 46px 0 0;
+	padding: 42px 23px 84px 23px;
+	color: #344;
+	background-color: #cdd;
+}
+
+.for_accessibility { display: none; }
+div.clearall { clear: both; }
+
+div#footer
+{
+	display: block;
+	width: 901px;
+	margin: 30px auto 30px auto;
+	padding: 7px;
+	font-size: 10px;
+	text-align: right;
+	color: #999;
+	border-top: 1px solid #ddd;
+}
+
+/*
+base typesetting styles
+----------------------------------------------------- */
+
+h2, h3
+{
+	font-weight: normal !important;
+	letter-spacing: 1px;
+}
+
+h2
+{
+	margin: 0 0 21px 0;
+	font-size: 30px;
+	line-height: 31px;
+	color: #06a;
+}
+
+h3, caption
+{
+	text-align: left;
+	margin: 18px 0 0 0;
+	font-size: 21px;
+	line-height: 21px;
+	color: #258;
+}
+
+div.post h3
+{
+	margin-top: 21px;
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+
+div#sidebar h3 { color: #566 !important; }
+
+div#data-item h3 { color: #79a; margin-top: 36px;}
+
+h4
+{
+	margin: 14px 0 0 0;
+	font-weight: normal !important;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+
+h5
+{
+	margin: 14px 0 0 0;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+
+p { margin: 18px 0 0 0; }
+
+div#data-item p { margin: 9px 0 0 9px; }
+
+p.caption
+{
+	font-size: 10px;
+	line-height: 13px;
+	letter-spacing: 1px;
+	margin: 3px 0 0 3px;
+	color: #999;
+}
+
+hr { margin: 40px 20px; }
+
+a
+{
+	color: #660;
+	text-decoration: none;
+	//border-bottom: 1px dotted #990;
+}
+
+a:hover
+{
+	//color: #330;
+	text-decoration: none;
+	//border-bottom: 1px solid #990;
+	//background-color: #eec;
+}
+
+div#content ul,
+div#content ol { padding-left: 17px !important; }
+
+div#content ul li,
+div#content ol li
+{
+	padding-left: 17px !important;
+	margin: 4px 0 !important;
+	border: none !important;
+}
+
+div#content ul li { list-style-type: square; }
+
+div#content dl dt
+{
+	font-weight: bold;
+	margin-top: 18px;
+}
+
+blockquote p
+{
+	margin: 18px;
+	font-style: normal;
+}
+
+form { display: inline; }
+input#search { color: #777; }
+div#subscribe_form input { color: #777; }
+p.question { font-weight: bold; }
+div#sidebar p { margin: 0; }
+
+div.contentimage
+{
+	display: block;
+	width: 460px;
+	margin: 25px 0;
+	clear: both;
+}
+
+div.QandA,
+div.post { border-top: 1px dashed #bbb; margin-top: 21px;}
+div.meta { color: #aaa; }
+sup, sub { line-height: 8px; }
+
+strong
+{
+	font-weight: normal;
+	font-style: normal;
+	color: #468;
+}
+
+em
+{
+	font-style: italic;
+	font-weight: normal;
+}
+
+/*
+tables
+*/
+
+table { width: 450px; }
+
+table, tr
+{
+	font-size: 11px;
+	line-height: 13px;
+	border: 0;
+	margin: 18px 0;
+	
+}
+
+col.left
+{
+	text-align: left;
+}
+
+col.center
+{
+	text-align: center;
+}
+
+
+td, th
+{
+	border-bottom: 1px #cdd solid;
+	padding: 5px;
+}
+
+thead th, tfoot td
+{
+	background-color: #cdd;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #566;
+}
+
+tr { background-color: #f6ffff; }
+
+tr.ruled { background-color: #dee; }
+
+table.wide { width: 750px; }
+
+table.wide tr { background-color: #fff; }
+
+
+div.group
+{
+	display: block;
+	width: 500px;
+	padding: 7px 0 0 0;
+	margin: 11px 0 0 0;
+	border-top: 1px solid #ccc;
+}

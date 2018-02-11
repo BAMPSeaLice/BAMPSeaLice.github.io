@@ -1,0 +1,134 @@
+div#navigation
+{
+	display: block;
+	width: 580px;
+	float: right;
+	clear: right;
+	line-height: 13px;
+	text-align: right;
+	margin: 70px 20px 0 0;
+} 
+
+div#subnavigation
+{
+	display: block;
+	width: 700px;
+	line-height: 13px;
+	text-align: right;
+	margin: 10px 0 40px 0;
+	padding: 0 !important;
+} 
+
+
+div#navigation ul,
+div#subnavigation ul
+{
+	display: block;
+	margin: 0 !important;
+	padding: 0 !important;
+	list-style: none;
+}
+
+div#navigation ul li,
+div#subnavigation ul li
+{
+	display: block;
+	float: left;
+	margin: 0 1px 0 0 !important;
+	padding: 0 !important;
+	position: relative;
+}
+
+div#navigation ul li ul.dropdown
+{
+	display: none;
+	position: absolute;
+	top: 28px;
+	left: 0;
+	width: 115px;
+	padding: 0;
+	margin: 0;
+	background-image: url(../images/template-nav-trans.png);
+}
+
+div#navigation ul li ul.dropdown li
+{
+	background-color: transparent !important;
+	border-top: 1px dotted #244; 
+	margin: 0;
+}
+
+/* all menu items */
+div#navigation ul li a
+{
+	display: block;
+	float: left;
+	color: black;
+	text-decoration: none;
+	width: 95px;
+	height: 14px;
+	padding: 7px 10px;
+	border: none !important;
+	background-color: #ddb;
+}
+
+div#subnavigation ul li a
+{
+	display: block;
+	float: left;
+	margin: 0;
+	color: white;
+	text-decoration: none;
+	width: 95px;
+	height: 30px;
+	padding: 7px 10px;
+	border: none !important;
+	background-image: url(../images/template-nav-trans.png);
+}
+
+div#navigation ul li.this_section a
+{
+	color: white !important;
+	background-color: #990 !important;
+}
+
+div#navigation ul li.this_section ul.dropdown li.this_section a,
+div#subnavigation ul li.this_section a
+{
+	color: white !important;
+	background-color: #025 !important;
+}
+
+div#navigation ul li ul.dropdown li a,
+div#navigation ul li.this_section ul.dropdown li a
+{
+	color: white !important;
+	background-color: transparent  !important;
+	height: auto;
+}
+
+/*transparent*/
+/* hover styles */
+
+div#navigation ul li a:hover
+{
+	background-color: #bb7 !important;
+	border: none !important;
+	text-decoration: none;	
+}
+
+div#navigation ul li ul.dropdown li a:hover,
+div#subnavigation ul li a:hover
+{
+	background-color: #048 !important;
+	border: none !important;
+	text-decoration: none;
+	color: white;
+}
+
+/* the 'over' style is added by javascript for IE only */
+ul#topnav li:hover ul.dropdown,
+ul#topnav li.over ul.dropdown
+{ 
+	display: block !important; 
+}

@@ -1,0 +1,132 @@
+body {
+	font: 12pt/21pt Georgia, serif; margin: 1in; padding: 0px; text-align: left; color: black; font-size-adjust: none; font-stretch: normal; background-color: white;
+}
+div#navigation {
+	display: none;
+}
+div#header {
+	display: none;
+}
+div#quicklinks {
+	display: none;
+}
+form {
+	display: none;
+}
+input {
+	display: none;
+}
+div#subscribe_form input {
+	display: none;
+}
+div#banner img {
+	display: none;
+}
+#sidebar {
+	display: none;
+}
+p {
+	margin: 18pt 0px; text-align: left;
+}
+p.caption {
+	margin: 3pt 0px 0px 3pt; color: rgb(153, 153, 153); line-height: 13pt; letter-spacing: 1pt; font-size: 10pt;
+}
+p.question {
+	font-weight: bold;
+}
+div.contentimage {
+	margin: 0.125in 0px; width: 5in; display: block;
+}
+div.QandA {
+	padding-bottom: 19pt; border-bottom-color: rgb(170, 170, 170); border-bottom-width: 1pt; border-bottom-style: dashed;
+}
+div.post {
+	padding-bottom: 19pt; border-bottom-color: rgb(170, 170, 170); border-bottom-width: 1pt; border-bottom-style: dashed;
+}
+div.meta {
+	color: rgb(170, 170, 170);
+}
+h2 {
+	letter-spacing: 1pt; font-weight: normal !important;
+}
+h3 {
+	letter-spacing: 1pt; font-weight: normal !important;
+}
+h2 {
+	margin: 0px 0px 21pt; color: rgb(0, 102, 170); font-size: 30pt;
+}
+h3 {
+	margin: 0px; color: rgb(34, 85, 136); font-size: 21pt;
+}
+div.post h3 {
+	text-transform: uppercase; line-height: 18pt; font-size: 14pt; margin-top: 21pt;
+}
+h4 {
+	margin: 14pt 0px 0px; letter-spacing: 2pt; font-size: 14pt; font-weight: normal !important;
+}
+div#content {
+	width: 5in; display: block;
+}
+blockquote p {
+	margin: 18pt; font-style: normal;
+}
+a {
+	color: rgb(153, 153, 0); font-weight: normal; text-decoration: none; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+sup {
+	line-height: 8pt;
+}
+sub {
+	line-height: 8pt;
+}
+div#content ul {
+	padding-left: 17pt !important;
+}
+div#content ol {
+	padding-left: 17pt !important;
+}
+div#content ul li {
+	margin: 4pt 0px !important; border: currentColor !important;
+}
+div#content ol li {
+	margin: 4pt 0px !important; border: currentColor !important;
+}
+div#content ul li {
+	list-style-type: square;
+}
+strong {
+	font-style: normal; font-weight: bold;
+}
+em {
+	font-style: italic; font-weight: normal;
+}
+table {
+	width: 450pt;
+}
+table {
+	margin: 18pt 0px; border: 0px currentColor; line-height: 13pt; font-size: 11pt;
+}
+tr {
+	margin: 18pt 0px; border: 0px currentColor; line-height: 13pt; font-size: 11pt;
+}
+td {
+	border: 1pt solid rgb(238, 238, 170);
+}
+th {
+	border: 1pt solid rgb(238, 238, 170);
+}
+td {
+	padding: 5pt; background-color: rgb(255, 255, 238);
+}
+th {
+	padding: 5pt; letter-spacing: 1pt; font-weight: bold; background-color: rgb(238, 238, 170);
+}
+.for_accessibility {
+	display: none;
+}
+div.clearall {
+	clear: both;
+}
+div#footer {
+	margin: 0px auto; width: 5in; text-align: left; color: rgb(187, 187, 187); font-size: 10pt; display: block;
+}
